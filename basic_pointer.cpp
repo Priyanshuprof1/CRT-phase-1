@@ -4,11 +4,11 @@ using namespace std;
 int main(){
     int x = 10;
 int *ptr = &x;
-*ptr=8;
 
 
-cout << ptr<<endl; 
-cout << x;  
+cout<<*ptr<<endl;
+cout<<ptr<<endl; 
+
 *ptr=19;
 cout<<x<<endl;
 return 0;
