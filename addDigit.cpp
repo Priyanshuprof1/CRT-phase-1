@@ -4,8 +4,8 @@ int addDigit(int n){
     if(n==0){
         return 0;
     }
-    int lastdigit = n%10;
-    return lastdigit + addDigit(n/10);
+    int sum = n%10;
+    return sum + addDigit(n/10);
 }
 int main(){
     int n;
